@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Kamu ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Halaman Awal -->
+<div id="welcome" class="screen active">
+    <h1>❤️ Hai Kamu ❤️</h1>
+    <button onclick="showMenu()">Coba Pencet</button>
+</div>
+
+<!-- Menu -->
+<div id="menu" class="screen">
+    <h2>Pilih Salah Satu</h2>
+
+    <div class="menu-btn">
+        <button onclick="openGallery()">📸 Galeri</button>
+        <button onclick="openNote()">💌 Catatan</button>
+    </div>
+</div>
+
+<!-- Galeri -->
+<div id="gallery" class="screen content-page">
+    <h2>Galeri Kita ❤️</h2>
+
+    <img src="foto1.jpg" alt="">
+    <img src="foto2.jpg" alt="">
+    <img src="foto3.jpg" alt="">
+</div>
+
+<!-- Catatan -->
+<div id="note" class="screen content-page">
+    <h2>💌 Catatan Untuk Kamu</h2>
+
+    <p>
+        Hai cantik, makasih ya udah hadir dalam hidup aku.
+        Semoga hari-hari kamu selalu bahagia, dipenuhi hal-hal
+        baik, dan semua impian yang kamu kejar bisa tercapai.
+        Aku cuma pengen kamu tau kalau kamu orang yang sangat
+        berharga dan spesial.
+    </p>
+</div>
+
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
